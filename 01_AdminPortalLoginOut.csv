@@ -1,0 +1,16 @@
+Action,Target,Value
+TestCase,,Good2give
+FeatureName,,AdminPortalLogin
+Description,,This test is to test adding an Login
+Categories,,Smoke
+FunctionCatagoryOrder,,000
+SortOrder,,001
+FunctionCatagory,,AdminPortal
+Navigate,URL,@@URL
+Wait,,500
+Type,id,UserName,$userName,
+Type,id,Password,$password,
+Click,css,input.btnLogin,,
+Wait,,500
+Verify,$verify_targert,$target_value
+Navigate,Back,

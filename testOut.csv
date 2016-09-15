@@ -1,0 +1,7 @@
+Command,Selector,SelectorValue,Value
+Type,id,UserName,$userName
+Type,id,Password,$password
+Wait,,,500
+Verify,$verify_targert,,$target_value
+Navigate,Back,,
+Click,css,input.btnLogin,

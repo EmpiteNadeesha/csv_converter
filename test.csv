@@ -1,0 +1,7 @@
+Action,Target,Value
+Type,"By.Id(""UserName"")",$userName
+Type,"By.Id(""Password"")",$password
+Wait,,500
+Verify,$verify_targert,$target_value
+Navigate,Back,
+Click,"By.CssSelector(""input.btnLogin"")",
